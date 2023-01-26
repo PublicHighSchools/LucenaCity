@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pic1 {
+ 
+    margin-left: 0%;
+
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #faed32;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #0a0441;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #26054b;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #180349;
+    border: 2px solid #15085c;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(243, 241, 241);
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.LCNHSmenu {
+    
+    width: 1000px;
+    height: 50px;
+    margin-left:  25%;
+    margin-top: 10%;
+    color: rgb(10, 10, 10);
+    background-color: beige;
+
+}
+
+.picL1 {
+    
+    width: 5%;
+    height: 5%;
+    padding-top: 10%;
+
+
+}
+
+.Lprincipal {
+    width: 1000px;
+    font-size: 150%;
+    font-style: Verdana;
+    height: 25px;
+    margin-left:  25%;
+    margin-top: 0%;
+    color: rgb(231, 247, 14);
+    background-color: rgb(11, 12, 12);
+}
+
+
+.fa {
+
+  padding: 20px;
+  margin-top: 50%;
+  font-size: 500px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-google {
+    background: #df3106;
+    color: white;
+  }
+
+.fa-facebook {
+    background: #15085c;
+    color: #fff;
+
+  }
+
+  .add {
+    width: 1000px;
+    font-size: 150%;
+    font-style: Verdana;
+    height: 25px;
+    margin-left:  25%;
+    margin-top: 0%;
+    color: rgb(243, 243, 237);
+    background-color: rgb(156, 160, 160);
+}
+  
+.p{
+    padding-left: 450px;
+    padding-bottom: 25px;
+    font-family: Arial ;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.pictureL2{
+    padding-top: 20%;
+    padding-left: 3%;
+}
+
+.copy {
+    margin-left: 50%;
+}
